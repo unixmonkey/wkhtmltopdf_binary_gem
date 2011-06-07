@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.executables = ['wkhtmltopdf']
 
   s.files = [
-    'wkhtmltopdf-binary.rb',
+    'lib/wkhtmltopdf-binary.rb',
     'bin/wkhtmltopdf_linux_amd64',
     'bin/wkhtmltopdf-binary.rb',
     'bin/wkhtmltopdf',
