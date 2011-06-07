@@ -1,5 +1,4 @@
-
-Gem::Specification.new |s| do
+Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.name = 'wkhtmltopdf-binary'
   s.version = '0.9.5.4'
