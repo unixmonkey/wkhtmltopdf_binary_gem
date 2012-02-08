@@ -9,7 +9,7 @@ spec = Gem::Specification.new do |s|
   s.email = "vpr-ris-developers@iowa.uiowa.edu,mcollas@aconex.com"
   s.platform = Gem::Platform::RUBY
   s.summary = "Provides binaries for WKHTMLTOPDF project in an easily accessible package."
-  s.files = FileList["{bin}/**/*"].to_a
+  s.files = FileList["{bin,libexec,lib}/*"].to_a
   s.has_rdoc = false
   s.executables << "wkhtmltopdf"
   s.require_path = '.'
