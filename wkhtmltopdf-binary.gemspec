@@ -21,9 +21,3 @@ Gem::Specification.new do |s|
     libexec/wkhtmltopdf-linux-amd64
     libexec/wkhtmltopdf-linux-x86)
 end
-
-
-
-
-
-
