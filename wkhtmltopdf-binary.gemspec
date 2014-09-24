@@ -13,20 +13,11 @@ Gem::Specification.new do |s|
   s.email = 'vpr-ris-developers@iowa.uiowa.edu,mcollas@aconex.com'
 
   s.bindir = 'bin'
-  s.executables = ['wkhtmltopdf']
+  s.executables = %w(wkhtmltopdf)
 
-  s.files = [
-    'lib/wkhtmltopdf-binary.rb',
-    'bin/wkhtmltopdf_linux_amd64',
-    'bin/wkhtmltopdf-binary.rb',
-    'bin/wkhtmltopdf',
-    'bin/wkhtmltopdf_darwin_386',
-    'bin/wkhtmltopdf_linux_386'
-  ]
+  s.files = %w(
+    lib/wkhtmltopdf-binary.rb bin/wkhtmltopdf
+    libexec/wkhtmltopdf-darwin-x86
+    libexec/wkhtmltopdf-linux-amd64
+    libexec/wkhtmltopdf-linux-x86)
 end
-
-
-
-
-
-
